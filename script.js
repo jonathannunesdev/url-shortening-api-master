@@ -21,7 +21,7 @@ shortenBtn.addEventListener('click', async (e) => {
         let results = await fetch(`https://api.shrtco.de/v2/shorten?url=${link}`);
         let json = await results.json();
 
-        modelHistoric.querySelector('.link--full').innerHTML = link;
+        modelHistoric.querySelector('.link--full').innerHTML = `https://${link}`;
         modelHistoric.querySelector('.link--shorten').innerHTML = json.result.short_link;
   
         modelHistoric.querySelectorAll('.copy').forEach((btn) => {

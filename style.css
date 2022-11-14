@@ -241,7 +241,8 @@ main{
 
 .warning--border{
     outline: 3px solid var(--RedWarning);
-    border-radius: 3px solid var(--RedWarning);
+    border: 3px solid var(--RedWarning);
+   
 }
 
 .warning--placeholder::placeholder{

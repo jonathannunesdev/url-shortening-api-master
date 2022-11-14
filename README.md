@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github](https://github.com/jowribas/url-shortening-api-master)
+- Live Site URL: [url shortening api request](url-shortening-api-master-ch.netlify.app)
 
 ## My process
 
@@ -59,6 +59,6 @@ In javascript I used events and functions and api request.
 
 ## Author
 
-- Website - [url shortening api request]()
+- Website - [url shortening api request](url-shortening-api-master-ch.netlify.app)
 - Frontend Mentor - [@jowribas](https://www.frontendmentor.io/profile/jowribas)
 

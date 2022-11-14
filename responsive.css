@@ -1,0 +1,229 @@
+/* Media query ----------------------------------------- */
+
+@media screen and (max-width: 1150px) { 
+    body{
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .historic--model{
+        height: 25vh;
+        flex-direction: column;
+        align-items: flex-start;
+        padding:15px;
+
+    }
+    .link--full{
+        flex: 2;
+        width: 100%;
+   
+        
+    }
+    
+    .copy{
+        margin-top: 15px;
+        align-items: center;
+        width: 70%;
+      
+    }
+    .right--section{
+        flex: 5;
+        border-top: 1px solid #888;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+   
+    }
+    .container--header .menu,
+    .container--header .account{
+        display: none;
+    }
+    .container--header--mobile{
+        width: 100%;
+    }
+    .menu--mobile .logo{
+        display: block;
+    }
+    .menu--mobile{
+        display: flex;
+        justify-content: space-between;
+        align-items: space-between;
+        width: 100%;
+   }
+    .container--header--mobile ul li {
+        width: 40px;
+        height: 5px;
+        background-color: var(--Gray);
+        margin: 5px;
+    }
+
+    .container--header--mobile ul{
+        flex-direction: column;
+    }
+    .bg{
+        margin-left: 100px;
+        
+        
+    }
+
+    .container--Info{
+        align-items: center;
+        width: 90%;
+        text-align: center;
+        margin: 5vw;
+    }
+
+    .container--Info h1{
+        font-size: 80px;
+    }
+    .container--Info span{
+        font-size: 30px;
+        margin: 5vw;
+        text-align: center;
+    }
+  
+    .firstPage .btn{
+        width: 350px;
+        height: 80px;
+        border-radius: 50px;
+        font-size: 30px;
+        
+    }
+    .container--firstPage{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        max-width: 80vw;
+  
+    }
+    .shorten{
+        bottom: -150px;
+        padding: 25px;
+        height: 250px;
+        width: 80%;
+        margin-bottom: 80px;
+    }
+    
+    .warning--link{
+        flex-direction: column;
+        align-items:  center;
+    }
+    .warning--link #input{
+        height: 60px;
+        width: 48vw;
+        margin: 0;
+        margin-top: 30px;
+        
+    }
+
+    .warning--link #submit{
+        width: 100%;
+        height: 60px;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .container--banners .bar{
+        height: 100%;
+        width: 12px;
+        align-items: center;
+        justify-content: center;
+        left: 49%;
+        top: 0;
+  
+    }
+
+    .second--page #bannerCenter,
+    .second--page #bannerRight{
+        margin: 0px;
+        margin-top: 100px;
+    } 
+
+    .banners{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+       
+    }
+    .banner h3{
+        font-size: 30px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .container--links{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer .logo{
+        margin-top: 35px;
+        margin-bottom: 35px;
+
+    }
+    .footer{
+        justify-content: center;
+        align-items: center;
+    }
+    .container--getStarted{
+       text-align: center;
+    }
+    .container--getStarted h2{
+        font-size: 22px;
+
+    }
+}
+
+@media screen and (max-width: 475px){
+
+    .container--Info h1{
+        font-size: 45px;
+    }
+    .container--Info span{
+        font-size: 25px;
+    
+    }
+    .second--page .banner{
+       height: 400px;
+       width: 100%;
+       text-align: center;
+    }
+    .shorten{
+        width: 80%;
+        height: 250px;
+    }
+
+    .warning--link #input{
+        width: 70vw;   
+    }
+    .codedBy{
+        font-size: 9px;
+    }
+    .container--firstPage .bg{
+        margin-left: 50px;
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position: right;
+        
+    }
+    .firstPage .btn{
+        width: 250px; 
+    }
+    .container--firstPage{
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 90vw;
+        overflow: hidden;
+    }
+
+}

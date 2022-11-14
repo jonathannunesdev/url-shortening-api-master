@@ -64,8 +64,7 @@
     }
     .bg{
         margin-left: 100px;
-        
-        
+  
     }
 
     .container--Info{
@@ -76,11 +75,12 @@
     }
 
     .container--Info h1{
-        font-size: 80px;
+        margin: 10px;
+       
     }
     .container--Info span{
-        font-size: 30px;
-        margin: 5vw;
+        font-size: 20px;
+        max-width: 90%;
         text-align: center;
     }
   
@@ -97,7 +97,6 @@
         align-items: center;
         max-width: 100vw;
         padding: 25px;
-  
     }
     .shorten{
         bottom: -150px;
@@ -188,11 +187,12 @@
 @media screen and (max-width: 475px){
 
     .container--Info h1{
-        font-size: 45px;
+        font-size: 40px;
     }
     .container--Info span{
-        font-size: 25px;
-    
+        font-size: 17px;
+        margin-bottom: 15px;
+ 
     }
     .second--page .banner{
        height: 400px;
@@ -200,8 +200,9 @@
        text-align: center;
     }
     .shorten{
+        bottom: -190px;
         width: 80%;
-        height: 250px;
+        height: 220px;
     }
 
     .warning--link #input{
@@ -225,6 +226,16 @@
         justify-content: center;
         width: 100vw;
         overflow: hidden;
+        margin-bottom: 30px;
     }
 
+    .second--page span{
+        width: 80%;
+        font-size: 17px;
+    }
+    .container--socialMedia ul{
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
 }

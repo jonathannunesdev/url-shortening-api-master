@@ -5,9 +5,13 @@ const linkShorten = document.querySelector('.link--shorten');
 const model = document.querySelector('.historic--model');
 const warning = document.querySelector('.warning--addlink em');
 const historicArea = document.querySelector('.historic--area');
+const bg = document.querySelector('.firstPage .bg');
+const menuToogle = document.querySelector('.firstPage .menu--toogle');
+const menuToogleBtn = document.querySelector('#menu--toogle--btn');
 
 let link = '';
 let modelHistoric = '';
+let menuToogleOpen = false;
 
 shortenBtn.addEventListener('click', async (e) => {
     e.preventDefault();
@@ -38,6 +42,19 @@ shortenBtn.addEventListener('click', async (e) => {
     };
 });
 
+menuToogleBtn.addEventListener('click', (e) => {
+    
+    if(menuToogleOpen === false){
+        menuToogle.style.display = 'flex'
+        bg.style.display = 'none';
+        menuToogleOpen = true;
+    } else{
+        menuToogle.style.display = 'none'
+        bg.style.display = 'flex';
+        menuToogleOpen = false;
+    }
+})
+
 function checkStatus() {
     if(link != ''){
         warning.style.color = 'transparent';
@@ -51,4 +68,4 @@ function checkStatus() {
           return false
     }; 
 };
-    
+

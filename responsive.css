@@ -182,6 +182,39 @@
         font-size: 22px;
 
     }
+    .menu--toogle{
+        width: 100%;
+        background-color: var(--DarkViolet);
+        border-radius: 10px;
+        color: var(--White);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+    .menu--toogle ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 35px;
+    }
+    .menu--toogle ul li{
+        margin-top:20px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .menu--toogle ul li button{
+        width: 300px;
+    }
+     .menu--toogle #line{
+        border-top: 1px solid var(--Gray);
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px; 
+     }
 }
 
 @media screen and (max-width: 475px){
@@ -239,4 +272,6 @@
         align-items: center;
         padding: 10px;
     }
+    
+    
 }

@@ -249,6 +249,9 @@ main{
     color: var(--RedWarning);
 }
 
+.menu--toogle{
+    display: none;
+}
 
 /* //  main historic area  ------------------------------------------- */
 
